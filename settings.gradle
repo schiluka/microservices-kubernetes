@@ -1,0 +1,4 @@
+rootProject.name = 'microservices-docker'
+
+include 'frontend-service'
+include 'backend-service'
