@@ -15,7 +15,9 @@
 
 >docker build --file=Dockerfile --tag=demo-frontend:latest --rm=true .
 
->docker images
+>docker images | grep demo-frontend
+
+docker images | grep demo-backend
 
 >exit
 
