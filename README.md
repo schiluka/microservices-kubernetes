@@ -8,10 +8,12 @@
 
 #### build images
 >cd microservices-docker/backend-service
-docker build --file=Dockerfile --tag=demo-backend:latest --rm=true .
+
+>docker build --file=Dockerfile --tag=demo-backend:latest --rm=true .
 
 >cd ../frontend-service
-docker build --file=Dockerfile --tag=demo-frontend:latest --rm=true .
+
+>docker build --file=Dockerfile --tag=demo-frontend:latest --rm=true .
 
 #### deploy pods from host
 >kubectl create -f backend-deployment.yaml
