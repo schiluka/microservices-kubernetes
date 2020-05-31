@@ -15,6 +15,8 @@
 
 >docker build --file=Dockerfile --tag=demo-frontend:latest --rm=true .
 
+>docker images
+
 >exit
 
 #### deploy pods from host
