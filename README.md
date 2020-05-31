@@ -4,7 +4,7 @@
 minikube ssh
 
 #### clone repo
-git clone https://github.com/schiluka/microservices-docker.git
+git clone https://github.com/schiluka/microservices-kubernetes.git
 
 ### build images
 cd microservices-docker/backend-service
