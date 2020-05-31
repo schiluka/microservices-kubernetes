@@ -17,7 +17,7 @@
 
 >docker images | grep demo-frontend
 
-docker images | grep demo-backend
+>docker images | grep demo-backend
 
 >exit
 
