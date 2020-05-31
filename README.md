@@ -1,28 +1,28 @@
 ## Microservices example using kubernates with two services
 
 #### login to minikube
-minikube ssh
+>minikube ssh
 
 #### clone repo
-git clone https://github.com/schiluka/microservices-kubernetes.git
+>git clone https://github.com/schiluka/microservices-kubernetes.git
 
-### build images
-cd microservices-docker/backend-service
+#### build images
+>cd microservices-docker/backend-service
 docker build --file=Dockerfile --tag=demo-backend:latest --rm=true .
-cd ../frontend-service
+>cd ../frontend-service
 docker build --file=Dockerfile --tag=demo-frontend:latest --rm=true .
 
 #### deploy pods from host
-kubectl create -f backend-deployment.yaml
-kubectl create -f frontend-deployment.yaml
+>kubectl create -f backend-deployment.yaml
+>kubectl create -f frontend-deployment.yaml
 
 #### verify deployments, pods, services
-kubectl get pods
-kubectl get deployments
-kubectl get services
+>kubectl get pods
+>kubectl get deployments
+>kubectl get services
 
 #### list all services inside minikube
-minikube service list
+>minikube service list
 
 #### open app - endpoint in browser
-minikube service demo-frontend
+>minikube service demo-frontend
