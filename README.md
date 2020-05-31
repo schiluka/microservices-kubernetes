@@ -15,6 +15,8 @@
 
 >docker build --file=Dockerfile --tag=demo-frontend:latest --rm=true .
 
+>exit
+
 #### deploy pods from host
 >kubectl create -f backend-deployment.yaml
 
