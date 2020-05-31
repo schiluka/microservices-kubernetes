@@ -1,5 +1,8 @@
 ## Microservices example using kubernates with two services
 
+#### start minikube
+>minikube start
+
 #### login to minikube
 >minikube ssh
 
@@ -38,3 +41,6 @@
 
 #### open app - endpoint in browser
 >minikube service demo-frontend
+
+#### stop minikube
+>minikube stop
