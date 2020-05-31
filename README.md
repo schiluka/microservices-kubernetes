@@ -7,7 +7,7 @@
 >git clone https://github.com/schiluka/microservices-kubernetes.git
 
 #### build images
->cd microservices-docker/backend-service
+>cd microservices-kubernetes/backend-service
 
 >docker build --file=Dockerfile --tag=demo-backend:latest --rm=true .
 
