@@ -15,11 +15,14 @@ docker build --file=Dockerfile --tag=demo-frontend:latest --rm=true .
 
 #### deploy pods from host
 >kubectl create -f backend-deployment.yaml
+
 >kubectl create -f frontend-deployment.yaml
 
 #### verify deployments, pods, services
 >kubectl get pods
+
 >kubectl get deployments
+
 >kubectl get services
 
 #### list all services inside minikube
